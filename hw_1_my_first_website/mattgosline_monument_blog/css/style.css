@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: 'raleway', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: #44545E;
+	padding: 0px 200px 0px 200px;
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+}
+
+a:hover {
+	color: #44545E;
+}
+
+nav {
+	margin-top: 30px;
+}
+
+nav a {
+	font-family: 'raleway', sans-serif;
+	font-size: 16px;
+	margin: 0px 50px 0px 50px;
+}
+
+h1 {
+	margin: 70px 0px 70px 0px;
+	font-size: 37px;
+}
+
+h1 a {
+	color: #44545E;
+	text-transform: uppercase;
+	margin: 50px 0px 100px 0px;
+	text-decoration: none;
+	margin-bottom: 50px;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 1.4;
+}
+
+img {
+	max-width: 100%;
+	text-align: center;
+}
+
+section {
+	text-align: left;
+	margin-bottom: 70px;
+}
+
+aside {
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+aside img {
+	margin: 30px 0px 30px 0px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left:0;
+	text-align: left;
+	text-decoration: none;
+	line-height: 30px;
+	text-transform: none;
+	font-family: 'raleway', san-serif;
+	color: #7B98AA;
+}
+
+img {
+	margin-top: 30px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	padding: 40px 0px 20px 0px;
+	color: #7B98AA;
+}
+
+footer a {
+	padding: 0px 30px 0px 30px;
+	color: #44545E;
+}
+
+footer p a {
+	padding: 0px 0px 0px 0px;
+}
+
+hr {
+	margin: 30px 0px 30px 0px;
+}
