@@ -1,0 +1,132 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+.wrap{
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin: auto;
+  background-color: #9ECAE2;
+}
+
+#color-var2 {
+  background-color: #E5ECED;
+}
+
+#color-var3 {
+  background-color: #8B858D;
+}
+
+#color-var4 {
+  background-color: #E2DCF1;
+}
+
+nav{
+  text-align: right;
+  padding: 20px 0px 20px 0px;
+}
+
+a{
+  padding-right: 50px;
+  text-decoration: none;
+  color: grey;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 50%;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer {
+	background-color: #000429;
+	overflow: auto;
+}
+
+footer input {
+	padding: 11px 10px;
+	width: 200px;
+	margin-right: 30px;
+	border: 0;
+	text-align: center;
+}
+
+footer .info {
+	padding: 30px 15px;
+  text-align: center;
+}
+
+.social-links a {
+	font-size: 30px;
+	padding: 15px;
+	margin-bottom: 30px;
+	display: inline-block;
+	color: #44545E;
+}
+
+.copyright {
+	/*border-top: 2px solid #44545E;*/
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #E5ECED;
+  text-align: center;
+
+}
+
+input {
+	border: 2px solid #44545E;
+	margin-bottom: 12px;
+	padding: 10px 10px;
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
+
+:-ms-input-placeholder {
+   color: #7C878E;
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   font-size: 12.299px;
+   font-weight: 600;
+}
